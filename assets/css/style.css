@@ -4,16 +4,16 @@
   --tertiary-color: rgb(166, 246, 255);
   --quaternary-color: rgb(190, 255, 247); */
 
-  /*
+  
   --primary-color: rgb(46, 67, 116);
   --secondary-color: rgb(75, 82, 126);
   --tertiary-color: rgb(124, 129, 173);
-  --quaternary-color: rgb(229, 195, 166); */
+  --quaternary-color: rgb(229, 195, 166);
 
-  --primary-color: rgb(232, 255, 206);
+  /* --primary-color: rgb(232, 255, 206);
   --secondary-color: rgb(172, 250, 223);
   --tertiary-color: rgb(148, 173, 215);
-  --quaternary-color: rgb(124, 115, 192);
+  --quaternary-color: rgb(124, 115, 192); */
 }
 
 .primary-color{
