@@ -1,3 +1,53 @@
+:root {
+  /* --primary-color: rgb(100, 153, 233);
+  --secondary-color: rgb(158, 221, 255);
+  --tertiary-color: rgb(166, 246, 255);
+  --quaternary-color: rgb(190, 255, 247); */
+
+  /*
+  --primary-color: rgb(46, 67, 116);
+  --secondary-color: rgb(75, 82, 126);
+  --tertiary-color: rgb(124, 129, 173);
+  --quaternary-color: rgb(229, 195, 166); */
+
+  --primary-color: rgb(232, 255, 206);
+  --secondary-color: rgb(172, 250, 223);
+  --tertiary-color: rgb(148, 173, 215);
+  --quaternary-color: rgb(124, 115, 192);
+}
+
+.primary-color{
+  background-color: var(--primary-color) !important;
+}
+
+.secondary-color{
+  background-color: var(--secondary-color) !important;
+}
+
+.tertiary-color{
+  background-color: var(--tertiary-color) !important;
+}
+
+.quaternary-color{
+  background-color: var(--quaternary-color) !important;
+}
+
+.primary-color-text{
+  color: var(--primary-color) !important;
+}
+
+.secondary-color-text{
+  color: var(--secondary-color) !important;
+}
+
+.tertiary-color-text{
+  color: var(--tertiary-color) !important;
+}
+
+.quaternary-color-text{
+  color: var(--quaternary-color) !important;
+}
+
 .profile-pic {
   position: relative;
   max-width:130px;
@@ -11,7 +61,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid var(--primary-color); 
   border-radius: 50% !important;
 }
 
@@ -356,7 +406,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--primary-color);
   height: 100%;
   left: 0;
   position: absolute;
@@ -602,7 +652,6 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
     height: 56px;
     line-height: 56px;
   }
